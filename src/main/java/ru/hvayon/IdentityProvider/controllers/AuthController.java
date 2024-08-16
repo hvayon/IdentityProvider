@@ -17,7 +17,7 @@ import java.util.Set;
 @RestController
 @RequiredArgsConstructor
 @RequestMapping("api")
-public class MainController {
+public class AuthController {
 
     private final UserRepository userRepository;
     private final RoleRepository roleRepository;
