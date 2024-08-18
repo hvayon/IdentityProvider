@@ -58,7 +58,7 @@ public class AuthController {
         userRepository.save(user);
     }
 
-    @RequestMapping("/user")
+    @RequestMapping("/v1/user")
     public Principal user(Principal user) {
         return user;
     }
